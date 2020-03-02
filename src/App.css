@@ -1,38 +1,57 @@
-.App {
+*{
+  background-color: silver;
+}
+
+.nameBox{
+  font-size: x-large;
+}
+
+.numBox{
+  font-size: x-large;
+}
+
+.addContact{
+  font-size: x-large;
+  background-color: blue;
+}
+
+.newContact{
+  background-color: rgb(14, 188, 211) ;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+h2{
+  font-size: xx-large;
+}
+
+button{
+  color: rgb(4, 243, 36);
+  border-radius: 20px;
+  max-width: 300px;
+}
+
+.name{
+  font-size: x-large;
+  border-style: solid;
+  border-radius: 20px;
+  width: 300px;;
   text-align: center;
+  border-color: blue;
+  font-weight: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.num{
+  font-size: x-large;
+  border-style: solid;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  border-color: crimson;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.eachPerson{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-direction: row;
 }
